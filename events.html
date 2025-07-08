@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Events - Navodaya Alumni</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+  background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    nav {
+      background: #003366;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 0 20px;
+      height: 300px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .scroll-wrapper {
+      display: flex;
+      flex-direction: column;
+      animation: scroll-right 20s linear infinite;
+    }
+
+    @keyframes scroll-right {
+      0% {
+        transform: translateY(0%);
+      }
+      100% {
+        transform: translateY(-100%);
+      }
+    }
+
+    .event {
+      border-left: 4px solid #1565c0;
+      padding-left: 15px;
+      margin: 20px 0;
+    }
+
+    .event-date {
+      font-weight: bold;
+      color: #555;
+    }
+
+    .event-title {
+      font-size: 1.2em;
+      margin: 5px 0;
+    }
+
+    .event-description {
+      font-size: 0.95em;
+      color: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #e3f2fd;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Alumni Events</h1>
+  <p>Stay Updated with Reunions, Camps, and Celebrations</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="events.html">Events</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="ourvision.html">Our Vision and Mission</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+  <div class="scroll-wrapper">
+    <div class="event">
+      <div class="event-date">📅 July 13, 2025</div>
+      <div class="event-title">Mega Medical Camp at JNV Choppadandi</div>
+      <div class="event-description">
+        Organized by the alumni and school administration, this camp will provide free health checkups and specialist consultations for students and villagers.
+      </div>
+    </div>
+
+    <div class="event">
+      <div class="event-date">📅 April 5, 2025</div>
+      <div class="event-title">Annual Alumni Meet - 2005 to 2020 Batches</div>
+      <div class="event-description">
+        A grand gathering to reconnect, celebrate, and honor former teachers. Includes cultural programs, lunch, and felicitation ceremony.
+      </div>
+    </div>
+
+    <div class="event">
+      <div class="event-date">📅 January 26, 2025</div>
+      <div class="event-title">Republic Day Celebration & Alumni Flag Hoisting</div>
+      <div class="event-description">
+        Alumni were invited as chief guests and flag bearers to inspire current students during the Republic Day celebrations.
+      </div>
+    </div>
+
+    <!-- Duplicate events to allow continuous scrolling -->
+    <div class="event">
+      <div class="event-date">📅 July 13, 2025</div>
+      <div class="event-title">Mega Medical Camp at JNV Choppadandi</div>
+      <div class="event-description">
+        Organized by the alumni and school administration, this camp will provide free health checkups and specialist consultations for students and villagers.
+      </div>
+    </div>
+
+    <div class="event">
+      <div class="event-date">📅 April 5, 2025</div>
+      <div class="event-title">Annual Alumni Meet - 2005 to 2020 Batches</div>
+      <div class="event-description">
+        A grand gathering to reconnect, celebrate, and honor former teachers. Includes cultural programs, lunch, and felicitation ceremony.
+      </div>
+    </div>
+
+    <div class="event">
+      <div class="event-date">📅 January 26, 2025</div>
+      <div class="event-title">Republic Day Celebration & Alumni Flag Hoisting</div>
+      <div class="event-description">
+        Alumni were invited as chief guests and flag bearers to inspire current students during the Republic Day celebrations.
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  &copy; 2025 Navodaya Alumni Association. All rights reserved.
+</footer>
+
+</body>
+</html>
